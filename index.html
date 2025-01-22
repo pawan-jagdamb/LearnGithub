@@ -4,27 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+          body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f9f9f9;
+        }
+        .container{
+            max-width: 100%;
+            background:linear-gradient(rgba(255,255,255,0.8),rgba (255,255,255,0.8)), url("");
+            background-size:60%;
+            background-repeat: no-repeat;
+            background-position: center;
+            z-index: -1;
+        }
+       
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 28px;
+            text-decoration: underline;
+        }
+        .project {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 15px;
+        }
+        .project:last-child {
+            border-bottom: none;
+        }
+        .project-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+        .project-details {
+            margin: 5px 0 10px 0;
+            color: #555;
+        }
+        .project-description {
+            color: #666;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+        }
+        th, td {
+            border: 1px solid #000;
+            text-align: center;
+            padding: 10px;
+        }
+        th {
+            background-color: #f4f4f4;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 24px;
+            text-decoration: underline;
+        }
+    </style>
 </head>
-<body>
-    
-    <div style="text-align: center;">
-        <h1 >Pawan Kumar</h1>
-        <!-- <br/> -->
-        <p> <a href="pawankumar9534078@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/pawan-kumar-57609630b/">Linkdin</a> | <a href="https://github.com/pawan-jagdamb">Github</a> | <a href="https://leetcode.com/u/pawankumar9534/">Leetcode</a></p>
-        <p>Ranchi, Jharkhand - 834006, India</p>
-        <!-- <p>9534078701</p> -->
-
+<body >
+    <!-- <div >
+        <img src="National_Institute_of_Technology,_Kurukshetra_Logo.png" alt="" height="" >
+    </div> -->
+    <div class="container" >
+        <div style="display: flex; flex-direction: row; text-align: center;justify-content: center;gap: 30px;">
+            <div>
+                <img src="PHOTO.jpg" height="200px" alt="">
+            </div>
+            
+            <div style="text-align: center;">
+                <h1 >Pawan Kumar</h1>
+                <!-- <br/> -->
+                <p> <a href="mailto:pawankumar9534078@gmail.com">Email</a> | <a href="https://www.linkedin.com/in/pawan-kumar-57609630b/">Linkdin</a> | <a href="https://github.com/pawan-jagdamb">Github</a> | <a href="https://leetcode.com/u/pawankumar9534/">Leetcode</a></p>
+                <p>Ranchi, Jharkhand - 834006, India</p>
+                <!-- <p>9534078701</p> -->
         
+                
+            </div>
+            <div>
+                <a href="https://nitkkr.ac.in/"> <img src="National_Institute_of_Technology,_Kurukshetra_Logo.png" height="200px" alt="" ></a>
+               
+            </div>
+    
+        </div>
+    
+        <div>
+            <marquee behavior="scroll" direction="left">
+                Feel Free to contact for Project  anykind  of project <span style="color: red;">9534078701</span>
+              </marquee>
+        </div>
+        
+        <div style="margin-left: 200px; margin-right: 200px;">
+               <h2>Education</h2> <hr/>
+               <div> 
+                <table>
+                    <thead>
+                        <tr>
+                            <th>School/University</th>
+                            <th>Course</th>
+                            <th>Duration</th>
+                            <th>Place</th>
+                            <th>Percentage/CGPA</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>GNHSS</td>
+                            <td>Intermediate</td>
+                            <td>2017-2019</td>
+                            <td>Ranchi</td>
+                            <td><a href="https://drive.google.com/file/d/1n6k9PQXqiwt5BeMtVuk9qI5G3oo-zNwN/view?usp=sharing">74%</a></td>
+                        </tr>
+                        <tr>
+                            <td>Dr. Shyama Prasad Mukherjee University</td>
+                            <td>Bachelor of Computer Application</td>
+                            <td>2020-2023</td>
+                            <td>Ranchi</td>
+                            <td><a href="https://drive.google.com/file/d/19hlWf1bU3oUuIUvbJ0YtZe8AKE2PqWgM/view?usp=drive_link">8.4CGPA</a></td>
+                        </tr>
+                        <tr>
+                            <td>NIT Kurukshetra</td>
+                            <td>MCA</td>
+                            <td>2023-Present</td>
+                            <td>Kurukshetra</td>
+                            <td><a href="https://drive.google.com/file/d/1D77-BDjosDeoI8uh5M1CKN_CIQ4YPqJG/view?usp=drive_link">8.5 CGPA</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+    
+               
+               </div>
+               <h2>Projects</h2>
+               <hr/>
+               <div >
+    
+    
+                <div>
+                    <ul >
+                        <li class="project-title " type="bullet">Weather App</li>
+                        <p class="project-details"><strong>Technologies:</strong> <i>[React Js, HTML, Tailwind Css]</i> <a href="https://pawan-jagdamb-weather-app.netlify.app/">Website</a> <a href="https://github.com/pawan-jagdamb/Weather_app">Link</a></p>
+    
+                     <ul class="project-description">
+                    
+                        <li>Developed a dynamic weather app that updates background visuals based on current weather
+                            conditions, enhancing user engagement.</li>
+                        <li>  Integrated a weather API to display real-time weather data, including a 7-day forecast, with a responsive                        design for a seamless experience across devices.
+                        </li>
+                        <li>
+                            <p>  Utilized React JS for efficient state management and component-based architecture, ensuring
+                                maintainability and scalability.</p>
+                        </li>
+                     </ul>
+                    </ul>
+    
+                    <ul>
+                        <li class="project-title">
+                       Dev Detective
+    
+                        </li>
+                        <p class="project-details"><strong>Technologies:</strong> <i>React.js, Tailwind CSS, GitHub REST API  </i> <a href="https://github.com/pawan-jagdamb/Dev-detective">Link</a></p>
+                        <ul class="project-description">
+                            <li>A web application that retrieves and displays GitHub profile details by username using the GitHub REST API.</li>
+                            <li>. Features include user profile insights a list of repositories with key metrics  and real-time error handling for invalid inputs.  Focused on delivering a seamless user experience and efficient API integration.</li>
+                      
+                        </ul>
+                    </ul>
+    
+                </div>
+    
+            
+        
+              </div>
+              <h2>Skills</h2>
+              <hr>
+              <div>
+    
+                <p > <strong> Programming Languages:</strong> <i>JavaScript, Python, C, C++</i> </p>
+                <p> <strong>Developer Tools:</strong> <i>React JS, Tailwind CSS, Express Js, Node.js, MongoDB, Vs Code</i></p>
+                <p> <strong>Technical Skills:</strong> <i>Data Structures and Algorithms, Excel, Technical Writing, Responsive Design </i></p>
+    
+                <p> <strong>Soft Skills:</strong> <i>:Leadership, Management, Teamwork, Teaching, Communication, Creativity, Critical
+                    Thinking, Time Management, Public Speaking</i></p>
+    
+                   
+              </div>
+    
+              <h2>CERTIFICATIONS</h2>
+              <hr>
+              <div>
+                <p><strong>Web Develpment:</strong> <a href="https://drive.google.com/file/d/1bx5xWV3Rz8eurb4muwJRG9d9BK4yN5Cl/view?usp=drive_link"> IBM SkillsBuild</a></p>
+              </div>
+              <h2>ADDITIONAL INFORMATION</h2>
+              <HR></HR>
+              <div> <strong>Languages:</strong> <i>Hindi, English</i></div>
+       
+        </div>
     </div>
-    <div style="margin-left: 200px; margin-right: 200px;">
-           <h2>Education</h2> <hr/>
-           <div>
-            <li>Nitkkr
-                    <p style="padding-left: 10%;">master </p>
-                </li>
-           </div>
-   
-    </div>
+    
  
 </body>
 </html>
